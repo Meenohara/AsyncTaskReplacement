@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    android:background="@color/teal_500"
+    android:gravity="center_vertical"
+    >
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="75"
+        android:id="@+id/note_title"
+        android:text="Title"
+        android:textSize="23sp"
+        android:lines="1"
+        android:padding="10dp"
+        android:textColor="#111"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/note_timestamp"
+        android:gravity="right"
+        android:layout_weight="20"
+        android:text="Dec 2020"
+        android:textSize="17sp"
+        android:padding="10dp"
+        android:textColor="#444"
+        />
+
+</LinearLayout>
